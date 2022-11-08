@@ -21,6 +21,16 @@ body {
   background-color: #fff;
   border-radius: 30px;
 }
+.form_label {
+  text-decoration: none;
+  font-family: "HelveticaNeue";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: black;
+  opacity: 0.65;
+  margin-bottom: 4px;
+}
 .form a {
   text-decoration: none;
   font-family: "HelveticaNeue";
@@ -36,6 +46,11 @@ body {
   background-color: #F8F1FF;
   border: none;
   border-radius: 7px;
+  padding-left: 15px;
+  font-family: "HelveticaNeue";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1px;
 }
 .form_menu {
   display: flex;
@@ -47,7 +62,7 @@ body {
   font-family: "HelveticaNeue";
   font-weight: 700;
   font-size: 14px;
-  line-height: 17px;
+  line-height: 1px;
   text-transform: uppercase;
   margin-right: 30px;
 }
@@ -73,6 +88,10 @@ body {
   font-weight: 700;
   font-size: 12px;
   text-transform: uppercase;
+  transition: background-color 0.3s;
+}
+.form_submit-btn:hover {
+  background-color: #653a8b;
 }
 .form_underline {
   width: 273px;
@@ -87,7 +106,17 @@ body {
   height: 40px;
   border: 2px solid #985ACE;
   border-radius: 10px;
+  font-family: "HelveticaNeue";
+  font-weight: 400;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 .form_google img {
   margin-right: 10px;
+}
+.form_google span {
+  font-family: "HelveticaNeue";
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
 }/*# sourceMappingURL=style.css.map */
